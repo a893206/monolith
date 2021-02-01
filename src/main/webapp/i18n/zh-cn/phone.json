@@ -2,24 +2,24 @@
   "monolithApp": {
     "phone": {
       "home": {
-        "title": "Phones",
-        "createLabel": "创建新 Phone",
-        "createOrEditLabel": "创建或编辑 Phone",
-        "notFound": "No Phones found"
+        "title": "手机",
+        "createLabel": "创建新手机",
+        "createOrEditLabel": "创建或编辑手机",
+        "notFound": "没有找到手机"
       },
-      "created": "Phone {{ param }} 创建成功",
-      "updated": "Phone {{ param }} 更新成功",
-      "deleted": "Phone {{ param }} 删除成功",
+      "created": "手机 {{ param }} 创建成功",
+      "updated": "手机 {{ param }} 更新成功",
+      "deleted": "手机 {{ param }} 删除成功",
       "delete": {
-        "question": "你确定要删除 Phone {{ id }} 吗？"
+        "question": "你确定要删除 手机 {{ id }} 吗？"
       },
       "detail": {
-        "title": "Phone"
+        "title": "手机"
       },
-      "name": "Name",
-      "price": "Price",
-      "os": "Os",
-      "promoting": "Promoting"
+      "name": "名称",
+      "price": "价格",
+      "os": "操作系统",
+      "promoting": "促销"
     }
   }
 }
