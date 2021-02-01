@@ -1,0 +1,9 @@
+{
+  "monolithApp": {
+    "Os": {
+      "null": "",
+      "ANDROID": "ANDROID",
+      "IOS": "IOS"
+    }
+  }
+}

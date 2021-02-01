@@ -1,0 +1,38 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": 0,
+      "fieldValidateRulesMaxlength": 20
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": 0
+    },
+    {
+      "fieldName": "os",
+      "fieldType": "Os",
+      "fieldValues": "ANDROID,IOS"
+    },
+    {
+      "fieldName": "promoting",
+      "fieldType": "Boolean"
+    }
+  ],
+  "changelogDate": "20210201144318",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "phone",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination"
+}
